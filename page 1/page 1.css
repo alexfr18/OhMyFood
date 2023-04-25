@@ -99,6 +99,9 @@ h3 {
 
 .starter {
     padding-bottom: 12px;
+    transform-origin: top;
+    transform: scale(0 1);
+    transition: transform 1000ms;
 }
 
 .dish {

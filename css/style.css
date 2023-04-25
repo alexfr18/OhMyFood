@@ -115,6 +115,7 @@ h1 a {
 .button-explorer {
     border-radius: 20px;
     padding: 15px;
+    opacity: 1;
     background: linear-gradient(to top, var(--main-color), var(--second-color));
     border: transparent;
     color: white;
@@ -122,8 +123,10 @@ h1 a {
 }
 
 .button-explorer:hover {
+    opacity: 0.8;
     border-radius: 25px;
-    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.35);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0);
+    cursor: pointer;
 }
 
 /*********** Fonctionnement **********/
