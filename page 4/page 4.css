@@ -91,10 +91,10 @@ h2 {
 }
 
 h3 {
-    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     border-bottom: #99E2D0 3px solid;
     width: 40px;
+    font-weight: 300;
 }
 
 .starter {
@@ -115,9 +115,9 @@ h3 {
     background-color: #FFFFFF;
     border-radius: 15px;
     display: flex;
-    flex-direction: column;
     border: #FFFFFF;
     box-shadow: 0px 4.01149px 15.0431px rgba(0, 0, 0, 0.1);
+    justify-content: space-between;
 }
 
 h4 {
@@ -125,16 +125,18 @@ h4 {
     padding-top: 12px;
 }
 
+.price-one {
+    padding-top: 41px;
+}
+
 .button1 p {
     margin: 0;
-    padding-top: 38px;
+    padding-top: 7px;
     position: absolute;
+    font-size: 15px;
 }
 
 .price {
-    position: absolute;
-    padding-left: 80%;
-    padding-top: 38px;
     font-family: 'Roboto';
     font-size: 15px;
 }
@@ -165,26 +167,47 @@ h4 {
     margin-top: 1271px;
 }
 
+
 .footer h2 {
     font-family: 'Shrikhand';
+    font-size: 18px;
+    margin: 0;
 }
 
 .footercolonne {
     display: flex;
     flex-direction: column;
     padding-left: 25px;
-    padding-bottom: 50px;
+    padding-bottom: 25px;
 }
 
-.footer-part i {
-    position: absolute;
-}
-
-.footer-part p {
+.footer-part-one {
+    display: flex;
+    align-items: center;
     margin: 0;
-    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 7px;
 }
 
-.footer-part {
-    padding-top: 10px;
+.footer-part-one p {
+    padding-left: 11px;
+    margin: 0;
+}
+
+.footer-part-two {
+    display: flex;
+    align-items: center;
+    padding-bottom: 7px;
+}
+
+.footer-part-two p {
+    padding-left: 6px;
+}
+
+.footer-part-three {
+    padding-bottom: 7px;
+}
+
+.footer-txt {
+    margin: 0;
 }
