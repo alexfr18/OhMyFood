@@ -99,14 +99,53 @@ h3 {
 
 .starter {
     padding-bottom: 12px;
+    transform: scaleY(1);
+    animation-name: apparition;
+    animation-duration: 1000ms;
+    animation-delay: 100ms;
+}
+
+@keyframes apparition{
+    0% {
+        transform: scaleY(0);
+    }
+    100% {
+        transform: scaleY(1);
+    }
 }
 
 .dish {
     margin-bottom: 12px;
+    transform: scaleY(1);
+    animation-name: apparition;
+    animation-duration: 1000ms;
+    animation-delay: 200ms;
+}
+
+@keyframes apparition{
+    0% {
+        transform: scaleY(0);
+    }
+    100% {
+        transform: scaleY(1);
+    }
 }
 
 .dessert {
     margin-bottom: 12px;
+    transform: scaleY(1);
+    animation-name: apparition;
+    animation-duration: 1000ms;
+    animation-delay: 300ms;
+}
+
+@keyframes apparition{
+    0% {
+        transform: scaleY(0);
+    }
+    100% {
+        transform: scaleY(1);
+    }
 }
 
 .button1 {
@@ -156,21 +195,30 @@ h4 {
     margin-bottom: 40px;
     margin-top: 28px;
     width: 186px;
+    opacity: 1;
+}
+
+.button-explorer:hover {
+    opacity: 0.8;
+    border-radius: 25px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0);
+    cursor: pointer;
 }
 
 /******* Footer ********/
 .footer {
     width: 100%;
+    height: 100px;
     background-color: #353535;
     color: white;
     position: absolute;
     margin-top: 1271px;
 }
 
-
 .footer h2 {
     font-family: 'Shrikhand';
     font-size: 18px;
+    padding-bottom: 7px;
     margin: 0;
 }
 
@@ -185,7 +233,6 @@ h4 {
     display: flex;
     align-items: center;
     margin: 0;
-    padding-top: 10px;
     padding-bottom: 7px;
 }
 
@@ -208,6 +255,82 @@ h4 {
     padding-bottom: 7px;
 }
 
+.footer-part-four {
+    padding-bottom: 7px;
+}
+
 .footer-txt {
     margin: 0;
 }
+
+/******** Media queries **********/
+@media (min-width: 768px) {
+    /******* Section menu ********/
+    .section-menu {
+        width: 70%;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    
+    .section-menu i {
+        justify-content: center;
+        position: absolute;
+        margin-left: 78%;
+    }
+    
+    .section-menu h2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    /******* Footer ********/
+    .footer {
+        height: 100px;
+    }
+    
+    .footercolonne {
+        width: 100%;
+        flex-direction: row;
+        padding-top: 40px;
+        align-items: center;
+        padding-bottom: 20px;
+        padding-right: 20px;
+        justify-content: end;
+        padding-left: 0px;
+    }
+    
+    .footer h2 {
+        order: 1;
+        font-size: 18px;
+        padding-left: 40px;
+        margin-right: 20px;
+        padding-top: 0;
+    }
+    
+    .footer-part-one {
+        display: flex;
+        align-items: center;
+        margin-right: 15px;
+    }
+    
+    .footer-part-two {
+        display: flex;
+        margin-right: 25px;
+    }
+    
+    .footer-txt {
+        padding-left: 5px;
+    }
+    }
+    
+    @media (min-width: 1024px) {
+    /********* Section menu *********/
+    .section-menu {
+        padding-top: 20px;
+    }
+    
+    .section-menu i {
+        margin-left: 70%;
+    }
+    
+    }
