@@ -75,7 +75,7 @@ h1 {
 .section-menu i {
     display: flex;
     float: right;
-    margin-top: 35px;
+    margin-top: 40px;
     margin-right: 20px;
 }
 
@@ -208,10 +208,11 @@ h4 {
 /******* Footer ********/
 .footer {
     width: 100%;
+    height: 100px;
     background-color: #353535;
     color: white;
     position: absolute;
-    margin-top: 1350px;
+    margin-top: 1271px;
 }
 
 .footer h2 {

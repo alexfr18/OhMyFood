@@ -75,7 +75,7 @@ h1 {
 .section-menu i {
     display: flex;
     float: right;
-    margin-top: 35px;
+    margin-top: 40px;
     margin-right: 20px;
 }
 
@@ -114,7 +114,6 @@ h3 {
     }
 }
 
-
 .dish {
     margin-bottom: 12px;
     transform: scaleY(1);
@@ -149,7 +148,6 @@ h3 {
     }
 }
 
-
 .button1 {
     width: 100%;
     height: 69px;
@@ -160,7 +158,6 @@ h3 {
     box-shadow: 0px 4.01149px 15.0431px rgba(0, 0, 0, 0.1);
     justify-content: space-between;
 }
-
 
 h4 {
     margin: 0;
@@ -214,7 +211,7 @@ h4 {
     background-color: #353535;
     color: white;
     position: absolute;
-    margin-top: 1270px;
+    margin-top: 1350px;
 }
 
 .footer h2 {
@@ -267,72 +264,72 @@ h4 {
 
 /******** Media queries **********/
 @media (min-width: 768px) {
-/******* Section menu ********/
-.section-menu {
-    width: 70%;
-    margin-left: 15%;
-    margin-right: 15%;
-}
-
-.section-menu i {
-    justify-content: center;
-    position: absolute;
-    margin-left: 78%;
-}
-
-.section-menu h2 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-/******* Footer ********/
-.footer {
-    height: 100px;
-}
-
-.footercolonne {
-    width: 100%;
-    flex-direction: row;
-    padding-top: 40px;
-    align-items: center;
-    padding-bottom: 20px;
-    padding-right: 20px;
-    justify-content: end;
-    padding-left: 0px;
-}
-
-.footer h2 {
-    order: 1;
-    font-size: 18px;
-    padding-left: 40px;
-    margin-right: 20px;
-    padding-top: 0;
-}
-
-.footer-part-one {
-    display: flex;
-    align-items: center;
-    margin-right: 15px;
-}
-
-.footer-part-two {
-    display: flex;
-    margin-right: 25px;
-}
-
-.footer-txt {
-    padding-left: 5px;
-}
-}
-
-@media (min-width: 1024px) {
-/********* Section menu *********/
-.section-menu {
-    padding-top: 20px;
-}
-
-.section-menu i {
-    margin-left: 70%;
-}
-
-}
+    /******* Section menu ********/
+    .section-menu {
+        width: 70%;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    
+    .section-menu i {
+        justify-content: center;
+        position: absolute;
+        margin-left: 78%;
+    }
+    
+    .section-menu h2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    /******* Footer ********/
+    .footer {
+        height: 100px;
+    }
+    
+    .footercolonne {
+        width: 100%;
+        flex-direction: row;
+        padding-top: 40px;
+        align-items: center;
+        padding-bottom: 20px;
+        padding-right: 20px;
+        justify-content: end;
+        padding-left: 0px;
+    }
+    
+    .footer h2 {
+        order: 1;
+        font-size: 18px;
+        padding-left: 40px;
+        margin-right: 20px;
+        padding-top: 0;
+    }
+    
+    .footer-part-one {
+        display: flex;
+        align-items: center;
+        margin-right: 15px;
+    }
+    
+    .footer-part-two {
+        display: flex;
+        margin-right: 25px;
+    }
+    
+    .footer-txt {
+        padding-left: 5px;
+    }
+    }
+    
+    @media (min-width: 1024px) {
+    /********* Section menu *********/
+    .section-menu {
+        padding-top: 20px;
+    }
+    
+    .section-menu i {
+        margin-left: 70%;
+    }
+    
+    }
