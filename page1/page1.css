@@ -42,6 +42,7 @@ img {
     padding-top: 28px;
     padding-left: 23px;
     color: black;
+    cursor: pointer;
 }
 
 h1 a {
@@ -75,8 +76,23 @@ h1 {
 .section-menu i {
     display: flex;
     float: right;
-    margin-top: 40px;
+    margin-top: 30px;
     margin-right: 20px;
+    font-size: 25px;
+}
+
+.heart-2 {
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(#9356DC, #FF79DA);
+    opacity: 0;
+    transition: 200ms;
+}
+
+.heart-2:hover {
+    opacity: 1;
+    transform: scale(1.2);
 }
 
 h2 {
@@ -114,7 +130,6 @@ h3 {
     }
 }
 
-
 .dish {
     margin-bottom: 12px;
     transform: scaleY(1);
@@ -149,7 +164,6 @@ h3 {
     }
 }
 
-
 .button1 {
     width: 100%;
     height: 69px;
@@ -161,6 +175,20 @@ h3 {
     justify-content: space-between;
 }
 
+.button1:active {
+    text-overflow: ellipsis;
+    padding: 13px;
+    transition: 500ms;
+    -webkit-animation: scale-up-hor-right 0.4s;
+    animation: scale-up-hor-right 0.4s;
+    background-color: green;
+    width: 10%;
+    position: relative;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+@-webkit-keyframes scale-up-hor-right{0%{-webkit-transform:scaleX(.4);transform:scaleX(.4);-webkit-transform-origin:100% 100%;transform-origin:100% 100%}100%{-webkit-transform:scaleX(1);transform:scaleX(1);-webkit-transform-origin:100% 100%;transform-origin:100% 100%}}@keyframes scale-up-hor-right{0%{-webkit-transform:scaleX(.4);transform:scaleX(.4);-webkit-transform-origin:100% 100%;transform-origin:100% 100%}100%{-webkit-transform:scaleX(1);transform:scaleX(1);-webkit-transform-origin:100% 100%;transform-origin:100% 100%}}
 
 h4 {
     margin: 0;
