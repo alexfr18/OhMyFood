@@ -115,53 +115,14 @@ h3 {
 
 .starter {
     padding-bottom: 12px;
-    transform: scaleY(1);
-    animation-name: apparition;
-    animation-duration: 1000ms;
-    animation-delay: 100ms;
-}
-
-@keyframes apparition{
-    0% {
-        transform: scaleY(0);
-    }
-    100% {
-        transform: scaleY(1);
-    }
 }
 
 .dish {
     margin-bottom: 12px;
-    transform: scaleY(1);
-    animation-name: apparition;
-    animation-duration: 1000ms;
-    animation-delay: 200ms;
-}
-
-@keyframes apparition{
-    0% {
-        transform: scaleY(0);
-    }
-    100% {
-        transform: scaleY(1);
-    }
 }
 
 .dessert {
     margin-bottom: 12px;
-    transform: scaleY(1);
-    animation-name: apparition;
-    animation-duration: 1000ms;
-    animation-delay: 300ms;
-}
-
-@keyframes apparition{
-    0% {
-        transform: scaleY(0);
-    }
-    100% {
-        transform: scaleY(1);
-    }
 }
 
 .button1 {
@@ -173,22 +134,18 @@ h3 {
     border: #FFFFFF;
     box-shadow: 0px 4.01149px 15.0431px rgba(0, 0, 0, 0.1);
     justify-content: space-between;
-}
-
-.button1:active {
-    text-overflow: ellipsis;
-    padding: 13px;
-    transition: 500ms;
-    -webkit-animation: scale-up-hor-right 0.4s;
-    animation: scale-up-hor-right 0.4s;
-    background-color: green;
-    width: 10%;
-    position: relative;
     overflow: hidden;
     white-space: nowrap;
+    text-overflow: ellipsis;
 }
 
-@-webkit-keyframes scale-up-hor-right{0%{-webkit-transform:scaleX(.4);transform:scaleX(.4);-webkit-transform-origin:100% 100%;transform-origin:100% 100%}100%{-webkit-transform:scaleX(1);transform:scaleX(1);-webkit-transform-origin:100% 100%;transform-origin:100% 100%}}@keyframes scale-up-hor-right{0%{-webkit-transform:scaleX(.4);transform:scaleX(.4);-webkit-transform-origin:100% 100%;transform-origin:100% 100%}100%{-webkit-transform:scaleX(1);transform:scaleX(1);-webkit-transform-origin:100% 100%;transform-origin:100% 100%}}
+.text {
+    padding-left: 10px;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
 
 h4 {
     margin: 0;
@@ -204,11 +161,31 @@ h4 {
     padding-top: 7px;
     position: absolute;
     font-size: 15px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
 .price {
     font-family: 'Roboto';
     font-size: 15px;
+}
+
+.check {
+    width: 80px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #99E2D0;
+    margin-right: -5rem;
+    margin-left: 1rem;
+    transition: 0.5s;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.button1:hover .check{
+    margin-right: 0;
 }
 
 .button2 {
