@@ -72,7 +72,7 @@ h1 {
     margin-top: 220px;
 }
 
-.section-menu i {
+.heart-1 {
     display: flex;
     float: right;
     margin-top: 30px;
@@ -87,6 +87,11 @@ h1 {
     background-image: linear-gradient(#9356DC, #FF79DA);
     opacity: 0;
     transition: 200ms;
+    display: flex;
+    float: right;
+    margin-top: 30px;
+    margin-right: 20px;
+    font-size: 25px;
 }
 
 .heart-2:hover {
@@ -141,14 +146,16 @@ h3 {
 .text {
     padding-left: 10px;
     width: 100%;
-    overflow: hidden;
-    white-space: nowrap;
     text-overflow: ellipsis;
+    overflow: hidden;
 }
 
 h4 {
     margin: 0;
     padding-top: 12px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
 .price-one {
@@ -158,11 +165,11 @@ h4 {
 .button1 p {
     margin: 0;
     padding-top: 7px;
-    position: absolute;
     font-size: 15px;
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
+    font-family: 'roboto';
 }
 
 .price {
@@ -171,6 +178,8 @@ h4 {
 }
 
 .check {
+    display: grid;
+    place-items: center;
     width: 80px;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
@@ -185,6 +194,13 @@ h4 {
 
 .button1:hover .check{
     margin-right: 0;
+}
+
+.check i {
+    border-radius: 50%;
+    background: white;
+    padding: 4px;
+    color: #99E2D0;
 }
 
 .button2 {
@@ -215,7 +231,6 @@ h4 {
 /******* Footer ********/
 .footer {
     width: 100%;
-    height: 100px;
     background-color: #353535;
     color: white;
     position: absolute;
@@ -272,72 +287,81 @@ h4 {
 
 /******** Media queries **********/
 @media (min-width: 768px) {
-    /******* Section menu ********/
-    .section-menu {
-        width: 70%;
-        margin-left: 15%;
-        margin-right: 15%;
-    }
+/******* Section menu ********/
+.section-menu {
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
     
-    .section-menu i {
-        justify-content: center;
-        position: absolute;
-        margin-left: 78%;
-    }
+.heart-1 {
+    justify-content: center;
+    position: absolute;
+    margin-left: 78%;
+}
+
+.heart-2 {
+    justify-content: center;
+    position: absolute;
+    margin-left: 78%;
+}
     
-    .section-menu h2 {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    /******* Footer ********/
-    .footer {
-        height: 100px;
-    }
+.section-menu h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/******* Footer ********/
+.footer {
+    height: 100px;
+}
     
-    .footercolonne {
-        width: 100%;
-        flex-direction: row;
-        padding-top: 40px;
-        align-items: center;
-        padding-bottom: 20px;
-        padding-right: 20px;
-        justify-content: end;
-        padding-left: 0px;
-    }
+.footercolonne {
+    width: 100%;
+    flex-direction: row;
+    padding-top: 40px;
+    align-items: center;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    justify-content: end;
+    padding-left: 0px;
+}
     
-    .footer h2 {
-        order: 1;
-        font-size: 18px;
-        padding-left: 40px;
-        margin-right: 20px;
-        padding-top: 0;
-    }
+.footer h2 {
+    order: 1;
+    font-size: 18px;
+    padding-left: 40px;
+    margin-right: 20px;
+    padding-top: 0;
+}
     
-    .footer-part-one {
-        display: flex;
-        align-items: center;
-        margin-right: 15px;
-    }
+.footer-part-one {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+}
     
-    .footer-part-two {
-        display: flex;
-        margin-right: 25px;
-    }
+.footer-part-two {
+    display: flex;
+    margin-right: 25px;
+}
     
-    .footer-txt {
-        padding-left: 5px;
-    }
-    }
+.footer-txt {
+    padding-left: 5px;
+}
+}
     
-    @media (min-width: 1024px) {
-    /********* Section menu *********/
-    .section-menu {
-        padding-top: 20px;
-    }
+@media (min-width: 1024px) {
+/********* Section menu *********/
+.section-menu {
+    padding-top: 20px;
+}
     
-    .section-menu i {
-        margin-left: 70%;
-    }
-    
-    }
+.heart-1 {
+    margin-left: 70%;
+}
+
+.heart-2 {
+    margin-left: 70%;
+}
+}
