@@ -216,12 +216,13 @@ h1 a {
     width: 218px;
     margin-right: 75px;
     margin-left: 82px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.30);
 }
 
 .button-explorer:hover {
     opacity: 0.8;
     border-radius: 25px;
-    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.60);
     cursor: pointer;
 }
 
@@ -397,6 +398,7 @@ h1 a {
 .fa-lg {
     line-height: none;
 }
+
 .card-tittle {
     font-size: 18px;
     margin: 0;
