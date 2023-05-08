@@ -24,6 +24,10 @@ h4 {
     font-size: 18px;
 }
 
+p {
+    font-family: 'roboto', sans-serif;
+}
+
 body {
     margin: 0;
 }
@@ -119,14 +123,53 @@ h3 {
 
 .starter {
     padding-bottom: 12px;
+    transform: scaleY(1);
+    animation-name: apparition;
+    animation-duration: 1000ms;
+    animation-delay: 100ms;
+}
+
+@keyframes apparition{
+    0% {
+        transform: scaleY(0);
+    }
+    100% {
+        transform: scaleY(1);
+    }
 }
 
 .dish {
     margin-bottom: 12px;
+    transform: scaleY(1);
+    animation-name: apparition;
+    animation-duration: 1000ms;
+    animation-delay: 200ms;
+}
+
+@keyframes apparition{
+    0% {
+        transform: scaleY(0);
+    }
+    100% {
+        transform: scaleY(1);
+    }
 }
 
 .dessert {
     margin-bottom: 12px;
+    transform: scaleY(1);
+    animation-name: apparition;
+    animation-duration: 1000ms;
+    animation-delay: 300ms;
+}
+
+@keyframes apparition{
+    0% {
+        transform: scaleY(0);
+    }
+    100% {
+        transform: scaleY(1);
+    }
 }
 
 .button1 {
@@ -238,11 +281,12 @@ h4 {
     margin-top: 1271px;
 }
 
-.footer h2 {
+.tittle-logo {
     font-family: 'Shrikhand';
     font-size: 18px;
     padding-bottom: 7px;
-    margin: 0;
+    margin-left: 0;
+    margin-bottom: 15px;
 }
 
 .footercolonne {
@@ -280,6 +324,12 @@ h4 {
 
 .footer-part-four {
     padding-bottom: 7px;
+}
+
+.footer-part-four a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto';
 }
 
 .footer-txt {
@@ -328,12 +378,13 @@ h4 {
     padding-left: 0px;
 }
     
-.footer h2 {
+.tittle-logo {
     order: 1;
     font-size: 18px;
     padding-left: 40px;
     margin-right: 20px;
     padding-top: 0;
+    margin-bottom: 0;
 }
     
 .footer-part-one {
@@ -346,7 +397,11 @@ h4 {
     display: flex;
     margin-right: 25px;
 }
-    
+
+.footer-part-four a {
+    padding-left: 5px;
+}
+
 .footer-txt {
     padding-left: 5px;
 }
