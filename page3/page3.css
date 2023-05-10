@@ -77,8 +77,8 @@ h1 {
 }
 
 .heart-1 {
-    display: flex;
-    float: right;
+    position: absolute;
+    right: 10%;
     margin-top: 30px;
     margin-right: 20px;
     font-size: 25px;
@@ -91,8 +91,8 @@ h1 {
     background-image: linear-gradient(#9356DC, #FF79DA);
     opacity: 0;
     transition: 200ms;
-    display: flex;
-    float: right;
+    position: absolute;
+    right: 10%;
     margin-top: 30px;
     margin-right: 20px;
     font-size: 25px;
@@ -143,7 +143,7 @@ h3 {
     transform: scaleY(1);
     animation-name: apparition;
     animation-duration: 1000ms;
-    animation-delay: 200ms;
+    animation-delay: 400ms;
 }
 
 @keyframes apparition{
@@ -160,7 +160,7 @@ h3 {
     transform: scaleY(1);
     animation-name: apparition;
     animation-duration: 1000ms;
-    animation-delay: 300ms;
+    animation-delay: 700ms;
 }
 
 @keyframes apparition{
