@@ -47,7 +47,7 @@ img {
     animation: loading 5s forwards;
 }
 
-#loader-4 span{
+#loader-1 span{
     place-items: center;
     text-align: center;
     font-size: 50px;
@@ -59,48 +59,47 @@ img {
     font-family: 'shrikhand';
 }
   
-#loader-4 span:nth-child(1){
+#loader-1 span:nth-child(1){
     animation: opacitychange 1s ease-in-out 0.1s infinite;
     background-color: #FF79DA;
     color: #99E2D0;
 }
   
-#loader-4 span:nth-child(2){
+#loader-1 span:nth-child(2){
     animation: opacitychange 1s ease-in-out 0.1s infinite;
     color: #99E2D0;
 }
   
-#loader-4 span:nth-child(3){
+#loader-1 span:nth-child(3){
     animation: opacitychange 1s ease-in-out 0.3s infinite;
     background-color: #FF79DA;
     color: #99E2D0;
 }
   
-#loader-4 span:nth-child(4){
+#loader-1 span:nth-child(4){
     animation: opacitychange 1s ease-in-out 0.3s infinite;
     color: #99E2D0;
 }
 
-#loader-4 span:nth-child(5){
+#loader-1 span:nth-child(5){
     animation: opacitychange 1s ease-in-out 0.5s infinite;
     background-color: #FF79DA;
     color: #99E2D0;
 }
 
-#loader-4 span:nth-child(6){
+#loader-1 span:nth-child(6){
+    animation: opacitychange 1s ease-in-out 0.5s infinite;
+    color: #99E2D0;
+}
+
+#loader-1 span:nth-child(7){
     animation: opacitychange 1s ease-in-out 0.5s infinite;
     background-color: #FF79DA;
     color: #99E2D0;
 }
 
-#loader-4 span:nth-child(7){
+#loader-1 span:nth-child(8){
     animation: opacitychange 1s ease-in-out 0.5s infinite;
-    color: #99E2D0;
-}
-
-#loader-4 span:nth-child(8){
-    animation: opacitychange 1s ease-in-out 0.5s infinite;
-    background-color: #FF79DA;
     color: #99E2D0;
 }
 
@@ -151,7 +150,7 @@ h1 a {
     justify-content: center;
     align-items: center;
     display: flex;
-    padding-left: 35px;
+    padding-left: 80px;
     border-top: lightgrey 3px solid;
 }
 
@@ -345,6 +344,7 @@ h1 a {
     margin-left: 14px;
     margin-right: 15px;
     position: relative;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
 }
 
 .card a {

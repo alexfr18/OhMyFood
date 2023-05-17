@@ -123,52 +123,52 @@ h3 {
 
 .starter {
     padding-bottom: 12px;
-    transform: scaleY(1);
     animation-name: apparition;
     animation-duration: 1000ms;
     animation-delay: 100ms;
+    box-shadow: 0px 4.01149px 15.0431px rgba(0, 0, 0, 0.1);
 }
 
 @keyframes apparition{
     0% {
-        transform: scaleY(0);
+        transform: scale(0);
     }
     100% {
-        transform: scaleY(1);
+        transform: scale(1);
     }
 }
 
 .dish {
     margin-bottom: 12px;
-    transform: scaleY(1);
     animation-name: apparition;
     animation-duration: 1000ms;
     animation-delay: 400ms;
+    box-shadow: 0px 4.01149px 15.0431px rgba(0, 0, 0, 0.1);
 }
 
 @keyframes apparition{
     0% {
-        transform: scaleY(0);
+        transform: scale(0);
     }
     100% {
-        transform: scaleY(1);
+        transform: scale(1);
     }
 }
 
 .dessert {
     margin-bottom: 12px;
-    transform: scaleY(1);
     animation-name: apparition;
     animation-duration: 1000ms;
     animation-delay: 700ms;
+    box-shadow: 0px 4.01149px 15.0431px rgba(0, 0, 0, 0.1);
 }
 
 @keyframes apparition{
     0% {
-        transform: scaleY(0);
+        transform: scale(0);
     }
     100% {
-        transform: scaleY(1);
+        transform: scale(1);
     }
 }
 
